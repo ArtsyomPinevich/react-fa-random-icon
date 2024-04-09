@@ -1,8 +1,11 @@
+import './app.css';
+import IconChanger from './components/IconChanger';
+
 function App() {
     return (
-        <>
-            <h1>Hello</h1>
-        </>
+        <main className="main">
+            <IconChanger />
+        </main>
     );
 }
 

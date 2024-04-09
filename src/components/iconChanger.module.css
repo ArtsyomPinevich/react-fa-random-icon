@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background-color: white;
+    border-radius: 12px;
+    min-height: 290px;
+    min-width: 400px;
+}
+
+.title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.icon {
+    height: 200px;
+    margin-block: 10px;
+}
+
+.button {
+    margin-top: 20px;
+    border: transparent;
+    border-radius: 8px;
+    padding: 10px 6px;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+}
+
+.button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
